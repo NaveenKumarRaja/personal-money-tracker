@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Money Tracker</title>
+<meta name="description" content="Track income and expenses offline. Syncs securely across your devices. Free Android app.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg:#f6f8f7; --card:#ffffff; --text:#161a18; --muted:#57605b; --brand:#1b6e5a; --on-brand:#ffffff; --line:#dfe5e2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#101412; --card:#1a1f1d; --text:#e6ebe8; --muted:#a3ada8; --brand:#7fd3b9; --on-brand:#08231b; --line:#2b3330; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+  header { display:flex; gap:20px; align-items:center; }
+  header img { width:88px; height:88px; border-radius:22px; flex:none; }
+  h1 { font-size:clamp(1.6rem, 5vw, 2.2rem); line-height:1.2; margin:0; }
+  .tag { color:var(--muted); margin:4px 0 0; }
+  .download { display:inline-flex; align-items:center; gap:10px; margin:28px 0 8px; padding:14px 26px;
+    background:var(--brand); color:var(--on-brand); border-radius:999px; font-weight:600; font-size:1.05rem; text-decoration:none; }
+  .download:focus-visible { outline:3px solid var(--text); outline-offset:3px; }
+  .small { color:var(--muted); font-size:.9rem; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px 22px; margin-top:20px; }
+  h2 { font-size:1.15rem; margin:0 0 8px; }
+  ol, ul { margin:0; padding-left:1.3rem; } li { margin:4px 0; }
+  code { font-size:.8rem; word-break:break-all; }
+  a { color:var(--brand); }
+  footer { margin-top:32px; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>Personal Money Tracker</h1>
+      <p class="tag">Track income and expenses offline. Syncs securely across your devices.</p>
+    </div>
+  </header>
+
+  <a class="download" href="https://github.com/NaveenKumarRaja/personal-money-tracker/releases/latest/download/personal-money-tracker.apk">
+    ⬇ Download for Android
+  </a>
+  <p class="small">Free · Android 7.0 or newer · about 60 MB · <a href="https://github.com/NaveenKumarRaja/personal-money-tracker/releases">all versions</a></p>
+
+  <section>
+    <h2>How to install</h2>
+    <ol>
+      <li>Tap <strong>Download for Android</strong> on your phone.</li>
+      <li>Open the downloaded file. If Android asks, allow <strong>Install unknown apps</strong> for your browser or Files app.</li>
+      <li>Tap <strong>Install</strong>, then open <strong>Personal Assistant</strong> and create an account.</li>
+    </ol>
+    <p class="small">This app is not on Google Play yet, so Android shows a warning for apps installed from a website. To update later, download the new version here and install it over the old one; your data is kept.</p>
+  </section>
+
+  <section>
+    <h2>What it does</h2>
+    <ul>
+      <li>Record income and expenses in seconds, even with no internet</li>
+      <li>Dashboard: this month's income, expenses and balance</li>
+      <li>Spending by category and subcategory, with charts</li>
+      <li>Search and filter your full history</li>
+      <li>Your data is backed up and synced to your other devices</li>
+      <li>No ads, no tracking. Delete your account any time from Settings</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Check the download (optional)</h2>
+    <p class="small">SHA-256 of version 1.0.0:<br><code>fb62f5cb25669a861d731693d60aa7f1234bbed0eac1152100d911f8f863c822</code><br>
+    Signing certificate SHA-256: <code>4F:46:FE:36:F0:44:E7:DD:0D:23:5C:20:02:15:91:C1:2E:85:5B:E3:F5:A3:D4:3B:32:2D:FD:B8:D5:70:46:7F</code></p>
+  </section>
+
+  <footer>
+    <a href="privacy-policy.html">Privacy policy</a> ·
+    <a href="privacy-policy.html#delete">Delete your account</a> ·
+    Contact: <a href="mailto:naveenk090199+moneytracker@gmail.com">naveenk090199+moneytracker@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
